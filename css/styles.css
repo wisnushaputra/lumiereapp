@@ -1,0 +1,305 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+body {
+    background-color: #e5e4fb;
+    background-image: 
+        linear-gradient(to right, #c8c6f0 1px, transparent 1px),
+        linear-gradient(to bottom, #c8c6f0 1px, transparent 1px);
+    background-size: 35px 35px; /* Size of the grid cells */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-top: 80px; /* Padding for fixed header */
+}
+
+/* Flexbox container for alignment */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+
+/* Logo and tagline styling */
+.logo {
+    font-size: 64px;
+    color: #a392e9;
+    margin-bottom: 10px;
+    font-family: 'Cursive', 'Dancing Script';
+}
+
+.tagline {
+    font-size: 16px;
+    color: #a392e9;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.sign {
+    font-size: 25px;
+    color: #a392e9;
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between; /* Memberikan jarak antar tombol */
+    align-items: center; /* Menyelaraskan tombol secara vertikal */
+    margin-top: 20px; /* Memberikan jarak atas */
+}
+
+/* Style input fields to look like buttons */
+.input-field {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(200, 200, 255, 0.3);
+    color: #6c63ff;
+    cursor: pointer;
+}
+
+
+
+
+/* Focus effect */
+.input-field:focus {
+    outline: none;
+    background-color: rgba(200, 200, 255, 0.5);
+}
+
+/* Customize the eye icon */
+#togglePassword {
+    font-size: 1.2rem;
+    color: #6c63ff;
+}
+
+/* Already a user section styling */
+.already-user {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #a392e9;
+    font-style: italic;
+}
+
+
+
+.already-user a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.already-user a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #7a73c7;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+/* RoomChat Header */
+.chat-header {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.chat-header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column; /* Stack bubbles vertically */
+    margin-top: 60px;
+    margin-left: 5%;
+    max-width:90%;
+}
+
+/* Admin Chat Section */
+.admin-chat {
+    align-self: flex-start; /* Align admin bubbles to the left */
+    width: 50%; /* Make sure it spans full width */
+}
+
+/* Admin Bubble */
+.admin-bubble {
+    display: flex;
+    justify-content: space-between; /* Align message and timestamp */
+    align-items: center;
+    padding: 15px;
+    color: white;
+    background-color: #6c63ff;
+    border-radius: 25px;
+    width: 100%; /* Adjust the width of the admin bubble */
+    max-width: 80%; /* Control max width */
+    margin-bottom: 10px;
+}
+
+/* User Chat Section */
+.user-chat {
+    flex-direction: column; /* Stack bubbles vertically */
+    align-self: flex-end; /* Align admin bubbles to the left */
+    float: right;
+    width: 50%; /* Make sure it spans full width */
+}
+
+
+/* User Bubble */
+.user-bubble{
+    display: flex;
+    justify-content: space-between; /* Align message and timestamp */
+    align-items: center;
+    padding: 15px;
+    color: white;
+    background-color: #6c63ff;
+    border-radius: 25px;
+    width: 100%; /* Adjust the width of the admin bubble */
+    max-width: 80%; /* Control max width */
+    float: right;
+}
+
+/* Name and Timestamp Styles */
+.admin-name {
+    font-style: italic;
+    color: #6c63ff;
+    margin-bottom: 5px;
+}
+
+.user-name {
+    font-style: italic;
+    color: #6c63ff;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 10px;
+}
+
+/* Chat input container */
+.chat-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+}
+
+/* Input field styling */
+#chat-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #beb3ff;
+    color: #383b8b;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Send button */
+.send-button {
+    width: 50%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: #9370DB;
+    color: white;
+    cursor: pointer;
+}
+.button-field {
+    width: 30%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #9370DB;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* Chat input container with icon */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #7B68EE;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Hilangkan garis bawah */
+}
+
+button:hover {
+    background-color: #5A4FCF; /* Warna saat tombol di-hover */
+}
+
+button a {
+    text-decoration: none;
+    color: white; /* Sesuaikan dengan warna tombol */
+}
+

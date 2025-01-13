@@ -1,0 +1,173 @@
+    section{
+    margin:auto;
+    display:flex;
+    margin-bottom:50px
+   }
+
+   .kolom{
+    margin-top:50px;
+    margin-bottom:50px;
+   }
+
+   .kolom .deskripsi{
+    font-size:20px;
+    font-weight: bold;
+    font-family:'Poppins', Arial, sans-serif;
+    color: rgb(83, 104, 183);
+   }
+   .kolom .deskripsi2{
+    font-size:15px;
+    font-weight: bold;
+    font-family:'Poppins', Arial, sans-serif;
+    color: rgb(83, 104, 183);
+   }
+   .kolom .deskripsi3{
+    font-size:20px;
+    font-family:'Poppins', Arial, sans-serif;
+    color:black;
+    margin-right:400px;
+   }
+
+   h2{
+    font-family:'Poppins', Arial, sans-serif;
+    font-weight:800;
+    font-size:35px;
+    margin-top:20px;
+    color: rgb(83, 104, 183);
+    width:100%;
+   }
+
+   h3{
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    font-size:15px;
+    color:black;
+   }
+
+
+
+    .container-tab {
+    max-width: 100%;
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right:100px;
+    }
+
+    /* Tab Header */
+    .tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white; /* Sama dengan konten */
+    border-bottom: none; /* Hilangkan border bawah */
+    padding: 0;
+    gap: 0;
+    }
+    .tab button {
+    background-color: white;
+    border: 2px solid transparent;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0 0; /* Membuat sudut atas melengkung */
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 14px;
+    }
+    .tab button.active {
+    background-color: rgb(230, 226, 250);; /* Warna konten */
+    border-bottom: none; /* Hilangkan border bawah */
+    color:rgb(83, 104, 183);
+    }
+    .tab button img {
+    display: block;
+    margin: 0 auto 5px;
+    width: 40px;
+    height: 40px;
+    }
+
+    /* Tab Konten */
+    .tab-content {
+    display: none;
+    background-color:rgb(230, 226, 250);
+    border-radius: 0 0 10px 10px; /* Membuat sudut bawah melengkung */
+    padding: 20px;
+    }
+    .tab-content.active {
+    display: block;
+    }   
+
+    /* Gaya untuk setiap tab */
+    .tablinks {
+    display: inline-flex;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    display: grid;
+    grid-template-rows: auto auto; /* Dua baris: satu untuk gambar, satu untuk teks */
+    justify-items: center; /* Pusatkan elemen secara horizontal */
+
+    }
+
+    .tablinks:hover, .tablinks.active {
+    border-bottom: 3px solid #63b3ed; /* Garis bawah tab aktif */
+    color: #63b3ed; /* Warna teks untuk tab aktif */
+    }
+
+    .text{
+    color:rgb(83, 104, 183);
+    font-family:'Poppins', Arial, sans-serif;
+    font-weight: bold;
+    font-size:30px;
+
+    }
+
+    .desk-lumiere {
+            font-family: 'Dancing Script', cursive; /* Font untuk teks utama */
+            font-size: 45px;  /* Ukuran font lebih besar */
+            color: #7a73c7;  /* Warna utama */
+        }
+
+        .tagline-lumiere {
+            font-family: 'Dancing Script', cursive; /* Font untuk tagline */
+            font-size: 15px; /* Ukuran font tagline */
+            color: #7a73c7;; /* Warna tagline */
+        }
+
+        .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    }
+    .social-icons li {
+    display: inline-block;
+    }
+    .social-icons a {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    }
+    .social-icons a:hover {
+    background-color: #ddd;
+    }
+    .social-icons img {
+    width: 20px;
+    height: 20px;
+    }

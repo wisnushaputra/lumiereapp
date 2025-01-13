@@ -1,0 +1,130 @@
+
+.navbar-nav .nav-link {
+    font-size: 1em;
+    transition: color 0.3s ease;
+    margin-right: 1em; /* Jarak antar menu */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dcbcf8; /* Warna hover */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28155, 155, 155, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.active {
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 16px; /* Ukuran font menu */
+    margin-right: 25px; /* Jarak antar menu */
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    text-decoration: none; /* Hilangkan garis bawah */
+    
+}
+.active i {
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+
+.navbar .dropdown-menu {
+background-color:rgb(242, 241, 248); /* Warna sesuai tema */
+border: none; /* Hilangkan border jika tidak diinginkan */
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk estetika */
+padding: 0.5rem; /* Beri ruang di dalam menu */
+}
+
+.navbar .dropdown-menu a {
+    color: black; /* Warna teks */
+    padding: 0.5rem 1rem; /* Jarak antar item */
+    text-decoration: none; /* Hilangkan garis bawah */
+    display: block; /* Pastikan link memenuhi lebar menu */
+}
+
+.navbar .dropdown-toggle {
+    background-color: #7c6ee6; /* Warna tombol dropdown */
+    color: white; /* Warna teks */
+    border: none; /* Hilangkan border tombol */
+    border-radius: 50px;
+    padding: 0.5rem 1rem; /* Tambahkan padding */
+    border-radius: 50px; /* Membuat sudut tombol melengkung */
+}
+.navbar .dropdown-toggle:hover {
+    background-color: #f0f0f0; /* Warna saat hover */
+    color: #5a4fcf; /* Ubah warna teks/ikon saat hover */
+}
+
+.navbar .dropdown-toggle:focus {
+    outline: none; /* Hilangkan outline saat fokus */
+    box-shadow: 0px 4px 6px rgba(70, 41, 75, 0.2); /* Bayangan saat aktif */
+}
+
+@media (max-width: 768px) {
+    .navbar .dropdown-menu {
+        width: 100%; /* Penuhi lebar layar */
+        position: static; /* Pastikan dropdown tetap di dalam navbar */
+    }
+
+    .navbar .dropdown-toggle {
+        width: 100%; /* Sesuaikan tombol di layar kecil */
+        text-align: center; /* Teks berada di tengah */
+    }
+}
+
+
+/* Chat Container */
+.chat-container {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background-color:rgb(212, 204, 248);
+    margin-bottom:20px;
+}
+
+.profile-header img {
+    width: 50px;
+    height: 50px;
+}
+
+.search-bar input {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+.chat-list {
+    max-height: 300px;
+    overflow-y: auto; /* Scroll tetap berfungsi */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer dan Edge */
+}
+
+/* Untuk Chrome, Safari, dan Opera */
+.chat-list::-webkit-scrollbar {
+    display: none; /* Hilangkan scrollbar */
+}
+
+.chat-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.online-status i {
+    font-size: 10px;
+}
+
+/* Hover Effect on Chat Items */
+.chat-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.chat-list .chat-item .online-status{
+    color:rgb(29, 210, 83);
+} 
+
+.chat-list .chat-item .online-status.offline{
+    color:rgb(117, 119, 121);
+}

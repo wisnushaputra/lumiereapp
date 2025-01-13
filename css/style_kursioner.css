@@ -1,0 +1,125 @@
+body {
+    font-family: 'Cursive', 'Dancing Script';
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5e4fb;
+    background-image: 
+        linear-gradient(to right, #c8c6f0 1px, transparent 1px),
+        linear-gradient(to bottom, #c8c6f0 1px, transparent 1px);
+    background-size: 35px 35px; /* Size of the grid cells */
+    padding-top: 80px; /* Padding for fixed header */
+}
+
+.container {
+    background-color:#beb3ff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.question {
+    margin-bottom: 25px;
+}
+
+.question p {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #9370DB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between; /* Memberikan jarak antar tombol */
+    align-items: center; /* Menyelaraskan tombol secara vertikal */
+    margin-top: 20px; /* Memberikan jarak atas */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #7B68EE;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Hilangkan garis bawah */
+}
+
+button:hover {
+    background-color: #5A4FCF; /* Warna saat tombol di-hover */
+}
+
+button a {
+    text-decoration: none;
+    color: white; /* Sesuaikan dengan warna tombol */
+}
