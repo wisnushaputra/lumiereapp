@@ -14,7 +14,7 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 
 ## Build with
 - [PHP](https://www.php.net/) - Bahasa pemrograman yang digunakan untuk membuat aplikasi
-- [JS](https://www.typescriptlang.org/](https://www.w3.org/wiki/JavaScript_best_practices) -  Digunakan untuk membuat beberapa fungsi seperti event dan animasi
+- [JS](https://www.w3.org/wiki/JavaScript_best_practices) -  Digunakan untuk membuat beberapa fungsi seperti event dan animasi
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Digunakan untuk mempercantik tampilan website
 - [Mysql](https://www.mysql.com/) - Digunakan sebagai database user
 
