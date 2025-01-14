@@ -10,6 +10,7 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 - Client : web aplication
 - server : Ubuntu 22.04.5 LTS
 - Webserver : Apache
+- Database : MariaDB
 
 
 ## Build with
