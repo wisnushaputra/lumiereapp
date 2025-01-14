@@ -42,3 +42,17 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 
 ### Chat
 ![](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/chat.png?raw=true)
+
+
+## About
+
+Aplikasi ini dibuat sebagai salah satu syarat dalam mata kuliah Rekayasa Perangkat Lunak kelas TIF RM 23B Kelompok 2
+
+## Team
+
+- AVRILLICIA | 23552011040
+- FAISAL YUKA|23552011005
+- FEBRYAN SYAPUTRA GINTING|23552011354
+- HILDA HULIATUS SA’DIYAH|23552011273
+- TIA PUSPITA | 23552011275
+- WISNU SUKMANA PUTRA|235520112669
