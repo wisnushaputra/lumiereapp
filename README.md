@@ -32,7 +32,7 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 ## Site
 
 ### Login form
-[](https://github.com/wisnushaputra/lumiereapp/demo/login.png)
+[](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/login.png)
 
 ### Home
 [](https://github.com/wisnushaputra/lumiereapp/demo/home.png)
