@@ -2,6 +2,7 @@
 
 Latar belakang pembuatan aplikasi ini berawal dari meningkatnya kebutuhan masyarakat akan akses dukungan kesehatan mental yang mudah dan terjangkau. Di era sekarang ini, stres, kecemasan, dan tekanan hidup sehari-hari semakin meningkat, tetapi akses ke layanan kesehatan mental profesional masih terbatas oleh faktor ekonomi, geografis, dan stigma sosial. Banyak orang merasa enggan atau malu untuk mencari bantuan langsung dari tenaga profesional karena masih ada pandangan negatif terkait isu kesehatan mental. Aplikasi kesehatan mental hadir untuk mengatasi kendala-kendala ini, memberikan alternatif yang aman dan nyaman bagi individu yang membutuhkan dukungan.
 
+## Demo
 Demo Aplikasi
 Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 
