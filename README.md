@@ -41,4 +41,4 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 ![](https://github.com/wisnushaputra/lumiereapp/demo/diary.png)
 
 ### Chat
-![](https://github.com/wisnushaputra/lumiereapp/demo/chat.png)
+![](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/chat.png?raw=true)
