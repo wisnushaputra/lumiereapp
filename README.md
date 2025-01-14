@@ -35,10 +35,10 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 ![](https://raw.githubusercontent.com/wisnushaputra/lumiereapp/03e0d445967e58a9b43ae136248c37ac72843225/demo/login.png)
 
 ### Home
-![](https://github.com/wisnushaputra/lumiereapp/demo/home.png)
+![](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/home.png?raw=true)
 
 ### Diary
-![](https://github.com/wisnushaputra/lumiereapp/demo/diary.png)
+![](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/diary.png?raw=true)
 
 ### Chat
 ![](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/chat.png?raw=true)
