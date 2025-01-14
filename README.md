@@ -32,4 +32,13 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 ## Site
 
 ### Login form
-[]()
+[](https://github.com/wisnushaputra/lumiereapp/demo/login.png)
+
+### Home
+[](https://github.com/wisnushaputra/lumiereapp/demo/home.png)
+
+### Diary
+[](https://github.com/wisnushaputra/lumiereapp/demo/diary.png)
+
+### Chat
+[](https://github.com/wisnushaputra/lumiereapp/demo/chat.png)
