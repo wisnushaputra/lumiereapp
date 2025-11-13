@@ -34,7 +34,7 @@ Berikut demo aplikasi yang sudah running : https://www.lumiereapp.my.id
 ## Site
 
 ### Login form
-![](https://github.com/wisnushaputra/image/blob/master/AnimalDex/Splash%20Screen.png?raw=true)
+![](https://raw.githubusercontent.com/wisnushaputra/lumiereapp/03e0d445967e58a9b43ae136248c37ac72843225/demo/login.png)
 
 ### Home
 ![](https://github.com/wisnushaputra/lumiereapp/blob/main/demo/home.png?raw=true)
